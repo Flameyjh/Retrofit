@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         })
 
         //----------------与okhttp进行对比,retrofit不需要创建requestBody和request-----------------------
+        //----------------okhttp发送post请求---------------------------------------------------------
 //        val formBody = FormBody.Builder().add("a", "1").add("b", "2").build()
 //        val request = Request.Builder().url("https://www.httpbin.org/post").post(formBody).build()
 //        //准备好请求的Call对象
